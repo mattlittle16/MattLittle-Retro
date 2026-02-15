@@ -32,7 +32,6 @@ jobs:
             --name mattlittle-memorial-app \
             --restart unless-stopped \
             --network app-network \
-            -p 8080:80 \
             mattlittle-memorial:latest
 
       - name: Clean up old images
