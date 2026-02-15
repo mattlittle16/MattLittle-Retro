@@ -1,0 +1,77 @@
+﻿@media(max-width:1000px) {
+}
+
+@media(max-width: 991px) {
+    .clouds {
+        max-height: 400px;
+    }
+
+    .ResponsiveHideMe {
+        display: none !important;
+    }
+
+    .MattResponsiveImage {
+        display: block;
+        width: 50%
+    }
+
+    .text-very-large {
+        font-size: 22pt;
+    }
+}
+
+@media(max-width:767px) {
+    .clouds {
+        max-height: 250px;
+    }
+
+    .text-large {
+        font-size: 11pt;
+    }
+
+    h2 {
+        font-size: 17pt;
+    }
+
+     .text-very-large {
+        font-size: 18pt;
+    }
+
+     .ResponsiveCenter {
+         text-align: center;
+     }
+}
+
+@media(max-width:575px) {
+    .MobileHideMe {
+        display: none;
+    }
+
+    .navbar {
+        display: none !important;
+    }
+
+    .clouds {
+        max-height: 100px;
+    }
+
+     .CursiveText {
+         font-family: 'Shadows Into Light', cursive !important;
+         font-size: 14pt;
+     }
+
+     h3 {
+         font-size: 13pt;
+         margin: 0;
+     }
+
+     .jumbotron {
+         padding-top: 5px !important;
+         padding-left: 10px !important;
+         padding-right: 10px !important;
+     }
+
+     .btn {
+         padding: 5px;
+     }
+}

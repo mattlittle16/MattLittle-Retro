@@ -1,0 +1,52 @@
+﻿/* Text Effects */
+.CursiveText {
+    font-family: 'Lobster', cursive;
+}
+
+.HandCursiveText {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.CodeText {
+
+}
+
+.text-large {
+    font-size: 15pt;
+}
+
+.text-very-large {
+    font-size: 30pt;
+}
+
+.TextShadow {
+    text-shadow: 2px 2px 2pt #2c3e50;
+}
+
+.NoTextShadow {
+    text-shadow: none !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Stuff and Things */
+.nope {
+    display: none;
+}
+
+.ImageFX {
+    border-radius: 5px;
+    box-shadow: 0 3px 11pt 2pt #000;
+    border: 2px solid #fff;
+}
+
+.MattResponsiveImage {
+    float: left;
+    width: 25%;
+    margin: 0 20px 20px 0;
+}
+
+
+

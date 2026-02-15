@@ -1,0 +1,46 @@
+name: Deploy MattLittle Memorial to Homelab
+
+on:
+  push:
+    branches:
+      - master
+      - main
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build Docker image
+        run: |
+          docker build \
+            -t mattlittle-memorial:latest \
+            -t mattlittle-memorial:${{ github.sha }} \
+            .
+
+      - name: Stop and remove old container
+        run: |
+          docker stop mattlittle-memorial-app || true
+          docker rm mattlittle-memorial-app || true
+
+      - name: Run new container
+        run: |
+          docker run -d \
+            --name mattlittle-memorial-app \
+            --restart unless-stopped \
+            --network app-network \
+            -p 8080:80 \
+            mattlittle-memorial:latest
+
+      - name: Clean up old images
+        run: |
+          docker image prune -f
+
+      - name: Verify deployment
+        run: |
+          sleep 5
+          docker ps | grep mattlittle-memorial
+          echo "Deployment successful! Container is running."

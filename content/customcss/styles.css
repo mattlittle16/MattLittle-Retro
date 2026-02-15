@@ -1,0 +1,479 @@
+﻿body {
+    background: #34495e;
+}
+
+p, h1, h2, h3, h4, h5, h6, div, table, tr, td, span {
+    color: #ecf0f1;
+    font-family: 'Ubuntu Mono';
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.hpe { 
+    display: none;
+}
+
+a {
+    color: rgb(192, 57, 43);
+    text-decoration: none;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+
+    a:hover {
+        color: rgb(231, 76, 60);
+        text-decoration: none;
+        -webkit-transition: all .3s ease-in;
+        -moz-transition: all .3s ease-in;
+        -o-transition: all .3s ease-in;
+        transition: all .3s ease-in;
+    }
+
+.clouds-wrapper {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.clouds {
+    opacity: .7;
+    position: absolute;
+}
+
+.ConnectList {
+    margin-top: 10px;
+}
+
+    .ConnectList li {
+        list-style: none;
+        margin-top: 15px;
+    }
+
+.mclError {
+    border-bottom: 6px solid #e74c3c !important;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.mclError2 {
+    border-bottom: 6px solid #e74c3c !important;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.SocialList li {
+    display: inline-block;
+    margin-right: 10px;
+    list-style: none;
+}
+
+    .SocialList li img {
+        height: 50px;
+        position: relative;
+    }
+
+        .SocialList li img:hover {
+            cursor: pointer;
+            -moz-animation: bounce 1s;
+            -webkit-animation: bounce 1s;
+            -o-animation: bounce 1s;
+            animation: bounce 1s;
+        }
+
+@-webkit-keyframes bounce {
+    0% {
+        top: 0;
+        -moz-animation-timing-function: ease-out;
+        -o-animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    17% {
+        top: 15px;
+        -moz-animation-timing-function: ease-in;
+        -o-animation-timing-function: ease-in;
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    34% {
+        top: 0;
+        -moz-animation-timing-function: ease-out;
+        -o-animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    51% {
+        top: 8px;
+        -moz-animation-timing-function: ease-in;
+        -o-animation-timing-function: ease-in;
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    68% {
+        top: 0px;
+        -moz-animation-timing-function: ease-out;
+        -o-animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    85% {
+        top: 3px;
+        -moz-animation-timing-function: ease-in;
+        -o-animation-timing-function: ease-in;
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+@-moz-keyframes bounce {
+    0% {
+        top: 0;
+        -moz-animation-timing-function: ease-out;
+        -o-animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    17% {
+        top: 15px;
+        -moz-animation-timing-function: ease-in;
+        -o-animation-timing-function: ease-in;
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    34% {
+        top: 0;
+        -moz-animation-timing-function: ease-out;
+        -o-animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    51% {
+        top: 8px;
+        -moz-animation-timing-function: ease-in;
+        -o-animation-timing-function: ease-in;
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    68% {
+        top: 0px;
+        -moz-animation-timing-function: ease-out;
+        -o-animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    85% {
+        top: 3px;
+        -moz-animation-timing-function: ease-in;
+        -o-animation-timing-function: ease-in;
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+@keyframes bounce {
+    0% {
+        top: 0;
+        -moz-animation-timing-function: ease-out;
+        -o-animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    17% {
+        top: 15px;
+        -moz-animation-timing-function: ease-in;
+        -o-animation-timing-function: ease-in;
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    34% {
+        top: 0;
+        -moz-animation-timing-function: ease-out;
+        -o-animation-timing-function: ease-out;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    51% {
+        top: 8px;
+        -moz-animation-timing-function: ease-in;
+        -o-animation-timing-function: ease-in;
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    68% {
+        top: 0px;
+    }
+
+    85% {
+        top: 3px;
+        -moz-animation-timing-function: ease-in;
+        -o-animation-timing-function: ease-in;
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+/* Full Page Section Styles */
+#WelcomeID {
+    background: url(../images/Logo.svg) no-repeat 50% 50%;
+    background-size: 80%;
+}
+
+#MeID {
+    background: url(../images/bg2.png) no-repeat;
+    background-size: cover;
+}
+
+#ExperienceID {
+    background: rgba(22, 160, 133, .4);
+}
+
+#ContactID {
+    background: rgba(41, 128, 185,1.0);
+}
+
+#world {
+    position: absolute;
+}
+
+.jumbotron ul {
+    padding: 0;
+}
+
+    .jumbotron ul li ul {
+        padding-left: 15px;
+    }
+
+.ResumeList > li {
+    list-style: none;
+}
+
+
+/* Navbar Styles */
+.NavIcons {
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    z-index: 999999999;
+    display: none;
+}
+
+.NavIcons span {
+    display: block;
+    height: 6px;
+    width: 40px;
+    background: #ecf0f1;
+    margin-top: 10px;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.PlayPause.Play {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 22px solid #ecf0f1;
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    z-index: 999999;
+}
+
+.PlayPause.Play:hover {
+    border-left: 22px solid #2ecc71;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.PlayPause.Pause {
+    width: 18px;
+    height: 31px;
+    border-left: 5px solid #ecf0f1;
+    border-right: 5px solid #ecf0f1;
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    z-index: 999999999;
+    display: none;
+    cursor:pointer;
+}
+
+.PlayPause.Pause:hover {
+    border-left: 5px solid #2ecc71;
+    border-right: 5px solid #2ecc71;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    cursor:pointer;
+}
+
+.NavIcons span:first-child {
+    margin-top: 0;
+}
+
+.NavIcons:hover {
+    cursor: pointer;
+}
+
+.NavIcons:hover span {
+    background: #2ecc71;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.NavContainer {
+    width: 20%;
+    min-width: 250px;
+    background: #13181e;
+    position: fixed;
+    z-index: 99999999;
+    top: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition-duration: 0.9s;
+    -moz-transition-duration: 0.9s;
+    -o-transition-duration: 0.9s;
+    transition-duration: 0.9s;
+    height: 100%;
+    padding: 25px;
+    border-right: 5px solid #0f1319;
+}
+
+.NavContainerOpen {
+     -webkit-transition-duration: 0.9s;
+    -moz-transition-duration: 0.9s;
+    -o-transition-duration: 0.9s;
+    transition-duration: 0.9s;
+    left: 0 !important;
+}
+
+.NavContainer ul li {
+    list-style: none;
+    margin-top: 35px;
+}
+
+.NavContainer ul li:first-child {
+    margin-top: 0;
+}
+
+.NavContainer ul {
+    margin: 0;
+    padding: 0;
+}
+
+.NavContainer ul li a {
+    font-size: 25pt;
+    color: #ecf0f1;
+    font-family: 'Lobster', cursive;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #212933;
+    width: 100%;
+    display: block;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+
+.NavContainer ul li a:hover { 
+    color: #3498db;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+
+@media(max-width:575px) {
+    .NavContainer ul li a {
+        font-size: 14pt !important;
+    }
+
+    .NavIcons {
+        padding: 10px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        top: 10px !important;
+        left: 10px !important;
+        background: #2c3e50;
+    }
+
+    .NavContainer ul li {
+        margin-top: 14px!important;
+    }
+
+
+    .NavIcons span {
+        height: 3px !important;
+        width: 25px !important;
+        margin-top: 6px !important;
+    }
+
+    .NavIcons span:first-child {
+        margin-top: 0 !important;
+    }
+}
+
+
+/* mcl Image Rotate */
+.MclSlider2 {
+    margin-right: 10px !important;
+    margin-bottom: 0 !important;
+}
+
+.mclImages img {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 11pt 2pt #000;
+    border: 6px solid #fff;
+    display: none;
+}
+
+    .mclImages img:first-child {
+        display: block;
+    }

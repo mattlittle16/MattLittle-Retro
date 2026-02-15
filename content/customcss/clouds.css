@@ -1,0 +1,335 @@
+﻿/* Animate Clouds */
+/* ############# */
+.clouds-wrapper .cloud-1 {
+    top: 10%;
+    margin-left: -5%;
+    -moz-animation-duration: 40s;
+    -o-animation-duration: 40s;
+    -webkit-animation-duration: 40s;
+    animation-duration: 40s;
+    -moz-animation-name: cloud-1;
+    -o-animation-name: cloud-1;
+    -webkit-animation-name: cloud-1;
+    animation-name: cloud-1;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.clouds-wrapper .cloud-2 {
+    top: 80%;
+    margin-left: -5%;
+    -moz-animation-duration: 25s;
+    -o-animation-duration: 25s;
+    -webkit-animation-duration: 25s;
+    animation-duration: 25s;
+    -moz-animation-name: cloud-2;
+    -o-animation-name: cloud-2;
+    -webkit-animation-name: cloud-2;
+    animation-name: cloud-2;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+
+.clouds-wrapper .cloud-3 {
+    top: 30%;
+    margin-left: 100%;
+    -moz-animation-duration: 50s;
+    -o-animation-duration: 50s;
+    -webkit-animation-duration: 50s;
+    animation-duration: 50s;
+    -moz-animation-name: cloud-3;
+    -o-animation-name: cloud-3;
+    -webkit-animation-name: cloud-3;
+    animation-name: cloud-3;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.clouds-wrapper .cloud-4 {
+    top: 5%;
+    margin-left: 100%;
+    -moz-animation-duration: 40s;
+    -o-animation-duration: 40s;
+    -webkit-animation-duration: 40s;
+    animation-duration: 40s;
+    -moz-animation-name: cloud-4;
+    -o-animation-name: cloud-4;
+    -webkit-animation-name: cloud-4;
+    animation-name: cloud-4;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.clouds-wrapper .cloud-5 {
+    top: 10%;
+    margin-left: -5%;
+    -moz-animation-duration: 55s;
+    -o-animation-duration: 55s;
+    -webkit-animation-duration: 55s;
+    animation-duration: 55s;
+    -moz-animation-name: cloud-5;
+    -o-animation-name: cloud-5;
+    -webkit-animation-name: cloud-5;
+    animation-name: cloud-5;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.clouds-wrapper .cloud-6 {
+    top: 40%;
+    margin-left: 100%;
+    -moz-animation-duration: 32s;
+    -o-animation-duration: 32s;
+    -webkit-animation-duration: 32s;
+    animation-duration: 32s;
+    -moz-animation-name: cloud-6;
+    -o-animation-name: cloud-6;
+    -webkit-animation-name: cloud-6;
+    animation-name: cloud-6;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+
+/* ----------------------------------------- */
+@-webkit-keyframes cloud-1 {
+    from {
+        margin-left: -5%;
+        width: 200px;
+    }
+
+    to {
+        margin-left: 101%;
+        width: 300px;
+        top: 5%;
+    }
+}
+
+@-moz-keyframes cloud-1 {
+   from {
+        margin-left: -5%;
+        width: 200px;
+    }
+
+    to {
+        margin-left: 101%;
+        width: 300px;
+        top: 5%;
+    }
+}
+
+@keyframes cloud-1 {
+    from {
+        margin-left: -5%;
+        width: 200px;
+    }
+
+    to {
+        margin-left: 101%;
+        width: 300px;
+        top: 5%;
+    }
+}
+/* ----------------------------------------- */
+
+
+/* ----------------------------------------- */
+@-webkit-keyframes cloud-2 {
+    from {
+        margin-left: -5%;
+    }
+
+    to {
+        margin-left: 101%;
+        top: 65%;
+        width: 250px;
+    }
+}
+
+@-moz-keyframes cloud-2 {
+   from {
+        margin-left: -5%;
+    }
+
+    to {
+        margin-left: 101%;
+        top: 65%;
+        width: 250px;
+    }
+}
+
+@keyframes cloud-2 {
+   from {
+        margin-left: -5%;
+    }
+
+    to {
+        margin-left: 101%;
+        top: 65%;
+        width: 250px;
+    }
+}
+/* ----------------------------------------- */
+
+
+/* ----------------------------------------- */
+@-webkit-keyframes cloud-3 {
+   from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: -5%;
+    }
+}
+
+@-moz-keyframes cloud-3 {
+   from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: -5%;
+    }
+}
+
+@keyframes cloud-3 {
+   from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: -5%;
+    }
+}
+/* ----------------------------------------- */
+
+
+/* ----------------------------------------- */
+@-webkit-keyframes cloud-4 {
+   from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: -5%;
+        top: 10%;
+    }
+}
+
+@-moz-keyframes cloud-4 {
+   from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: -5%;
+        top: 10%;
+    }
+}
+
+@keyframes cloud-4 {
+   from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: -5%;
+        top: 10%;
+    }
+}
+/* ----------------------------------------- */
+
+
+/* ----------------------------------------- */
+@-webkit-keyframes cloud-5 {
+   from {
+        margin-left: -5%;
+    }
+
+    to {
+        margin-left: 101%;
+        top: 15%;
+    }
+}
+
+@-moz-keyframes cloud-5 {
+   from {
+        margin-left: -5%;
+    }
+
+    to {
+        margin-left: 101%;
+        top: 15%;
+    }
+}
+
+@keyframes cloud-5 {
+   from {
+        margin-left: -5%;
+    }
+
+    to {
+        margin-left: 101%;
+        top: 15%;
+    }
+}
+/* ----------------------------------------- */
+
+
+/* ----------------------------------------- */
+@-webkit-keyframes cloud-6 {
+   from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: -5%;
+    }
+}
+
+@-moz-keyframes cloud-6 {
+   from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: -5%;
+    }
+}
+
+@keyframes cloud-6 {
+   from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: -5%;
+    }
+}
+/* ----------------------------------------- */
+
+
+
+
+@media(max-width:767px) {
+    .clouds-wrapper .cloud-1 {
+        -moz-animation-duration: 20s;
+        -o-animation-duration: 20s;
+        -webkit-animation-duration: 20s;
+        animation-duration: 20s;
+    }
+}
